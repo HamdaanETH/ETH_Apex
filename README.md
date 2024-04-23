@@ -36,4 +36,4 @@ Before running the project, ensure you have [Node.js](https://nodejs.org/) and [
    ```npm install @vitejs/plugin-react --save-dev```
 4. Run the program:
    ```npm run dev```
-5. The console should show a localhost link for the website.
+5. The console should show a localhost link for the website
