@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg-welcome {
+  background-color: #0a192f;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(210,30%,12%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(190,25%,20%,1) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(170,40%,30%,1) 0, transparent 50%);
+}
+
+.gradient-bg-transactions {
+  background-color: #0a192f;
+  background-image: 
+    radial-gradient(at 0% 100%, hsla(210,30%,12%,1) 0, transparent 53%), 
+    radial-gradient(at 50% 150%, hsla(170,40%,30%,1) 0, transparent 50%);
+}
+
+.gradient-bg-footer {
+  background-color: #0a192f;
+  background-image: 
+    radial-gradient(at 0% 100%, hsla(210,30%,12%,1) 0, transparent 53%), 
+    radial-gradient(at 50% 150%, hsla(170,40%,30%,1) 0, transparent 50%);
+}
+
+.blue-glassmorphism {
+  background: rgba(10, 25, 47, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.eth-card {
+  background-color: #112240;
+  background-image: 
+    radial-gradient(at 83% 67%, rgb(95, 205, 228) 0, transparent 58%), 
+    radial-gradient(at 67% 20%, hsla(204,94%,71%,1) 0, transparent 59%), 
+    radial-gradient(at 88% 35%, hsla(202,81%,65%,1) 0, transparent 50%), 
+    radial-gradient(at 31% 91%, hsla(210,61%,61%,1) 0, transparent 52%), 
+    radial-gradient(at 27% 71%, hsla(193,91%,65%,1) 0, transparent 49%), 
+    radial-gradient(at 74% 89%, hsla(168,98%,65%,1) 0, transparent 51%), 
+    radial-gradient(at 53% 75%, hsla(174,94%,68%,1) 0, transparent 45%);
+}
+
+.text-gradient {
+  background-color: #fff;
+  background-image: linear-gradient(to right, #6fffe9 0%, #b892ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-around; /* This will space out the cards equally */
+  flex-wrap: wrap; /* Allows cards to wrap to the next line if needed */
+  gap: 20px; /* Adds space between cards */
+  margin: 20px auto;
+  max-width: 960px; /* Adjust this to control the overall width of the card container */
+}
+
+.card {
+  width: calc(50% - 10px); /* Adjust width to fit two cards in one line, accounting for the gap */
+  height: 200px; /* Height of the cards */
+  background-image: linear-gradient(to bottom right, #4dd0e1, #6a5acd);
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Organizes content vertically */
+}
+
+.neon-text {
+  font-family: 'Montserrat', sans-serif;
+  color: aqua; /* Base color for the text */
+  font-weight: 900; /* Bold weight for more impact */
+  font-size: 20px; /* Adjust based on your requirement */
+  text-transform: uppercase;
+  text-shadow:
+    0 0 5px #0033ff,  /* Outer glow with a soft aqua */
+    0 0 10px #0033ff, /* Slightly larger glow */
+    0 0 20px #0033ff, /* Even more glow */
+    0 0 40px #0033ff, /* Adding depth with a larger aqua glow */
+    0 0 80px #0033ff; /* Wide glow for neon effect */
+  transform: skew(-10deg); /* Tilt to the left */
+}
+
+.card span {
+  color: white;
+  font-weight: bold;
+}
+
+.pixel-font {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.card-font{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #fff
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
