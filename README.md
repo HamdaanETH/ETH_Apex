@@ -29,9 +29,9 @@ Before running the project, ensure you have [Node.js](https://nodejs.org/) and [
 ### Installation
 
 1. Clone the repository (Use branch *master*):
-   ```git clone https://github.com/HamdaanETH/Ethereum_Apex.git```
+   ```git clone https://github.com/HamdaanETH/ETH_Apex.git```
 2. Change into the client directory:
-   ```cd Ethereum_Apex/client```
+   ```cd ETH_Apex/client```
 3. Install Vite (Only do this on first run):
    ```npm install @vitejs/plugin-react --save-dev```
 4. Run the program:
