@@ -22,7 +22,7 @@ Ethereum Apex is a secure web application for decentralized transactions. It use
 
 ## Getting Started
 
-### Prerequisites
+### Prerequisite
 
 Before running the project, ensure you have [Node.js](https://nodejs.org/) and [npm](https://npmjs.com/) installed.
 
