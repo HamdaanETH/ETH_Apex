@@ -47,7 +47,7 @@ const Welcome = () => {
             Trade Ethereum <br /> on Sepolia
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-          Dive into the Ethereum ecosystem. Effortlessly buy, sell, and manage your Ethereum investments with Ethereum Empower on the Sepolia Network.
+          Dive into the Ethereum ecosystem. Effortlessly buy, sell, and manage your Ethereum investments with Ethereum Apex on the Sepolia Network.
           </p>
           {!currentAccount && (
             <button

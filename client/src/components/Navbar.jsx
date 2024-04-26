@@ -19,7 +19,7 @@ return (
 
     {/* Company Name and Subheading */}
     <div className="flex flex-col justify-center items-center md:items-start ml-4">
-      <span className="text-white text-5xl font-bold" style={{ fontFamily: 'Cormorant, serif', fontStyle: "italic" }}>Ethereum Empower</span> {/* Company name */}
+      <span className="text-white text-5xl font-bold" style={{ fontFamily: 'Cormorant, serif', fontStyle: "italic" }}>Ethereum Apex</span> {/* Company name */}
       <span className="text-white text-2xl font-light" style={{ fontFamily: 'Cormorant, serif', fontStyle: "italic"}}>Your Gateway to the Ethereum Ecosystem</span> {/* Subheading */}
     </div>
   </div>
