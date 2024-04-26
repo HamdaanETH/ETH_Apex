@@ -1,9 +1,9 @@
-![Screenshot from 2024-04-21 20-46-13](https://github.com/HamdaanETH/Ethereum_Empower/assets/126102400/1fda1fe0-6bc6-4da1-b26a-c5c9c3624827)
+![Screenshot from 2024-04-21 20-46-13](https://github.com/HamdaanETH/Ethereum_Apex/assets/126102400/1fda1fe0-6bc6-4da1-b26a-c5c9c3624827)
 
 
-# Ethereum Empower
+# Ethereum Apex
 
-Ethereum Empower is a secure web application for decentralized transactions. It uses the Ethereum blockchain with MetaMask integration. This application allows users to perform secure and easy transactions using the Ethereum network. It integrates MetaMask for managing Ethereum wallets and transactions through web browsers.
+Ethereum Apex is a secure web application for decentralized transactions. It uses the Ethereum blockchain with MetaMask integration. This application allows users to perform secure and easy transactions using the Ethereum network. It integrates MetaMask for managing Ethereum wallets and transactions through web browsers.
 
 ## Key Features
 
@@ -29,9 +29,9 @@ Before running the project, ensure you have [Node.js](https://nodejs.org/) and [
 ### Installation
 
 1. Clone the repository (Use branch *master*):
-   ```git clone https://github.com/HamdaanETH/Ethereum_Empower.git```
+   ```git clone https://github.com/HamdaanETH/Ethereum_Apex.git```
 2. Change into the client directory:
-   ```cd Ethereum_Empower/client```
+   ```cd Ethereum_Apex/client```
 3. Install Vite (Only do this on first run):
    ```npm install @vitejs/plugin-react --save-dev```
 4. Run the program:
