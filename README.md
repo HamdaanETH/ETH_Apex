@@ -1,5 +1,3 @@
-![Screenshot from 2024-04-21 20-46-13](https://github.com/HamdaanETH/ETH_Apex/assets/126102400/1fda1fe0-6bc6-4da1-b26a-c5c9c3624827)
-
 
 # Ethereum Apex
 
